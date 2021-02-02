@@ -1,2 +1,2 @@
-# ArencyStore
+# arency-store
 ArencyStore | Интернет магазин стильной одежды
