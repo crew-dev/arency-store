@@ -1,0 +1,97 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.main-title {
+	text-align: center;
+	color: teal;
+	font-size: 35px;
+	margin: 20px 0;
+}
+
+.main-text {
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.text-description {
+	font-size: 25px;
+	text-align: center;
+	margin: 0px;
+}
+
+.items-browser {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.img-browser {
+	width: 100px;
+}
+
+.card-browser {
+	margin-right: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px;
+	transition: ease-in-out 0.3s;
+	cursor: pointer;
+	-webkit-box-shadow: 7px 7px 25px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 7px 7px 25px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 7px 7px 25px 2px rgba(34, 60, 80, 0.2);
+}
+
+.card-browser:hover {
+	color: teal;
+  -webkit-box-shadow: 7px 7px 25px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 7px 7px 25px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 7px 7px 25px 2px rgba(34, 60, 80, 0.2);
+  transform: scale(1.1);
+}
+
+.card-browser:last-child {
+		margin: 0px
+}
+
+.card-text {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.photo-theme {
+	margin-top: 40px;
+	width: 100%;
+	height: 250px;
+}
+
+.photo-img {
+	width: 100%;
+	height: 250px;
+	background: url("../img/ie/photo-theme.jpg");
+	background-size: cover;
+	background-position: center;
+}

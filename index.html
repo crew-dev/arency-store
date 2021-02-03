@@ -18,7 +18,7 @@
 	<header class="container header px-4 px-md-0">
 		<div class="row justify-content-between align-items-center">
 			<div class="col-lg-2 col-6">
-				<a href="#"><img class="logo-image" src="img/logo.svg" alt="logo: Arency Store"></a>
+				<a href="#"><img class="logo-image" src="img/svg/logo.svg" alt="logo: Arency Store"></a>
 			</div>
 			<div class="col-xl-6 col-lg-7 d-none d-lg-block">
 				<nav>
@@ -43,7 +43,7 @@
 			</div>
 			<div class="col-lg-2 col-6 d-flex justify-content-end">
 				<button class="button">
-					<img class="button-icon" src="img/cart.svg" alt="icon: cart">
+					<img class="button-icon" src="img/svg/cart.svg" alt="icon: cart">
 					<span class="button-text">Корзина</span>
 				</button>
 			</div>
@@ -69,50 +69,15 @@
 					<!-- /.row -->
 				</div>
 			</section>
-			<section class="slide slide-1 swiper-slide">
+			<section class="slide slide-2 swiper-slide">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg col-8 offset-lg-1">
-							<span class="label">Bestseller</span>
-							<h2 class="slide-title">Вязанный <br> джемпер</h2>
-							<p class="slide-deskription">Женский жемчужный вязаный свитер с круглым вырезом. Доступен в нескольких
-								цветах. Бесплатная доставка в магазин.</p>
+							<span class="label">New</span>
+							<h2 class="slide-title">Толстовка <br>Urban Street</h2>
+							<p class="slide-deskription slide-text-2">Мужская толстовка с капюшоном. Свободный крой, качественные материалы. Мягкая приятная ткань хорошо держит тепло.</p>
 							<button class="button">
-								<span class="button-price">2 900 ₽</span>
-								<span class="button-text">Купить</span>
-							</button>
-						</div>
-					</div>
-					<!-- /.row -->
-				</div>
-			</section>
-			<section class="slide slide-1 swiper-slide">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg col-8 offset-lg-1">
-							<span class="label">Bestseller</span>
-							<h2 class="slide-title">Вязанный <br> джемпер</h2>
-							<p class="slide-deskription">Женский жемчужный вязаный свитер с круглым вырезом. Доступен в нескольких
-								цветах. Бесплатная доставка в магазин.</p>
-							<button class="button">
-								<span class="button-price">2 900 ₽</span>
-								<span class="button-text">Купить</span>
-							</button>
-						</div>
-					</div>
-					<!-- /.row -->
-				</div>
-			</section>
-			<section class="slide slide-1 swiper-slide">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg col-8 offset-lg-1">
-							<span class="label">Bestseller</span>
-							<h2 class="slide-title">Вязанный <br> джемпер</h2>
-							<p class="slide-deskription">Женский жемчужный вязаный свитер с круглым вырезом. Доступен в нескольких
-								цветах. Бесплатная доставка в магазин.</p>
-							<button class="button">
-								<span class="button-price">2 900 ₽</span>
+								<span class="button-price">1 699 ₽</span>
 								<span class="button-text">Купить</span>
 							</button>
 						</div>
@@ -126,12 +91,12 @@
 				<div class="row justify-content-between">
 					<div class="col-1">
 						<buttom class="slider-button slider-button-prev">
-							<img src="img/arrow-prev.svg" alt="">
+							<img src="img/svg/arrow-prev.svg" alt="">
 						</buttom>
 					</div>
 					<div class="col-1">
 						<buttom class="slider-button slider-button-next">
-							<img src="img/arrow-next.svg" alt="">
+							<img src="img/svg/arrow-next.svg" alt="">
 						</buttom>
 					</div>
 				</div>
@@ -182,26 +147,34 @@
 			<div class="col-xl-3 col-lg-6">
 				<div class="card card-4">
 					<h2 class="card-title text-light">Рубашка с принтом</h2>
-					<div class="card-text text-pink">Pink/Sky Blue/Yellow</div>
+					<div class="card-text text-pink">Pink/Skyblue/Yellow</div>
 					<span class="button-price text-light">2200 ₽</span>
 				</div>
 			</div>
 			<!-- /.col-3 -->
 		</div>
 		<div class="row align-items-center mb-4">
-			<div class="col-7">
+			<div class="col-6">
 				<h2 class="section-title">Новые поступления</h2>
 			</div>
-			<div class="col-5 d-flex justify-content-end">
-				<a class="more" href="#">Смотреть все</a>
+			<div class="col-6 d-flex justify-content-end">
+				<a class="more">
+					Смотреть все
+					<svg width="150" height="65" viewBox="0 0 150 65" xmlns="http://www.w3.org/2000/svg">
+						<rect x='0' y='0' fill='none' width='150' height='65' />
+					</svg>
+				</a>
 			</div>
 		</div>
 		<div class="row d-flex justify-content-between">
 			<div class="col-xl-3 col-sm-6">
 				<div class="goods-card">
 					<span class="label">New</span>
-					<img src="img/goods-card-1.png" alt="" class="goods-img">
-					<h3 class="goods-title">Худи с принтом</h3>
+					<picture class="goods-img">
+						<source srcset="img/webp/goods-card-1.webp" type="image/webp" />
+						<img src="img/png/goods-card-1.png" class="goods-img alt=" goods-card" />
+					</picture>
+					<h3 class="goods-title">Худи с капюшоном</h3>
 					<div class="goods-colors">
 						<div class="btn-color pink"></div>
 						<div class="btn-color skyblue"></div>
@@ -214,8 +187,11 @@
 			<div class="col-xl-3 col-sm-6">
 				<div class="goods-card">
 					<span class="label">New</span>
-					<img src="img/goods-card-2.png" alt="" class="goods-img">
-					<h3 class="goods-title">Пляжные брюки </h3>
+					<picture class="goods-img">
+						<source srcset="img/webp/goods-card-2.webp" type="image/webp" />
+						<img src="img/png/goods-card-2.png" class="goods-img alt=" goods-card" />
+					</picture>
+					<h3 class="goods-title">Пляжные шорты </h3>
 					<div class="goods-colors">
 						<div class="btn-color navy"></div>
 						<div class="btn-color ochre"></div>
@@ -228,8 +204,11 @@
 			<div class="col-xl-3 col-sm-6">
 				<div class="goods-card">
 					<span class="label">New</span>
-					<img src="img/goods-card-3.png" alt="" class="goods-img">
-					<h3 class="goods-title">Футболка "Reality"</h3>
+					<picture class="goods-img">
+						<source srcset="img/webp/goods-card-3.webp" type="image/webp" />
+						<img src="img/png/goods-card-3.png" class="goods-img alt=" goods-card" />
+					</picture>
+					<h3 class="goods-title">Футболка "Forest"</h3>
 					<div class="goods-colors">
 						<div class="btn-color white"></div>
 					</div>
@@ -240,7 +219,10 @@
 			<div class="col-xl-3 col-sm-6">
 				<div class="goods-card">
 					<span class="label">New</span>
-					<img src="img/goods-card-4.png" alt="" class="goods-img">
+					<picture class="goods-img">
+						<source srcset="img/webp/goods-card-4.webp" type="image/webp" />
+						<img src="img/png/goods-card-4.png" class="goods-img alt=" goods-card" />
+					</picture>
 					<h3 class="goods-title">Полосатая рубашка с длинным рукавом </h3>
 					<div class="goods-colors">
 						<div class="btn-color navy"></div>
@@ -259,22 +241,24 @@
 			<div class="row">
 				<div class="col-xl-7 mb-4 mb-xl-0">
 					<nav>
-						<ul class="footer-menu d-sm-flex">
-							<li class="footer-menu-item"><a href="#" class="footer-menu-link">Магазин</a></li>
-							<li class="footer-menu-item"><a href="#" class="footer-menu-link">О нас</a></li>
-							<li class="footer-menu-item"><a href="#" class="footer-menu-link">Карьера</a></li>
-							<li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQ</a></li>
-							<li class="footer-menu-item"><a href="#" class="footer-menu-link">Блог</a></li>
-							<li class="footer-menu-item"><a href="#" class="footer-menu-link">Контакты</a></li>
-						</ul>
+						<div class="animation-link-left">
+							<ul class="footer-menu d-sm-flex">
+								<li class="footer-menu-item"><a href="#" class="footer-menu-link">Магазин</a></li>
+								<li class="footer-menu-item"><a href="#" class="footer-menu-link">О нас</a></li>
+								<li class="footer-menu-item"><a href="#" class="footer-menu-link">Карьера</a></li>
+								<li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQ</a></li>
+								<li class="footer-menu-item"><a href="#" class="footer-menu-link">Блог</a></li>
+								<li class="footer-menu-item"><a href="#" class="footer-menu-link">Контакты</a></li>
+							</ul>
+						</div>
 					</nav>
 				</div>
 				<div class="col-lg-3 d-flex align-items-center">
 					<span class="footer-text">Follow us</span>
 					<span class="footer-social d-inline-flex align-items-center">
-						<a href="#" class="social-link"><img src="img/Facebook.svg" alt="icon: facebook"></a>
-						<a href="#" class="social-link"><img src="img/Twitter.svg" alt="icon: twitter"></a>
-						<a href="#" class="social-link"><img src="img/Instagram.svg" alt="icon: twitter"></a>
+						<a href="#" class="social-link"><img src="img/svg/facebook.svg" alt="icon: facebook"></a>
+						<a href="#" class="social-link"><img src="img/svg/twitter.svg" alt="icon: twitter"></a>
+						<a href="#" class="social-link"><img src="img/svg/instagram.svg" alt="icon: twitter"></a>
 					</span>
 				</div>
 				<div class="col-xl-2 col-lg-3 d-flex align-items-center lg-justify-content-end mt-2 mt-lg-0 mb-lg-0">
@@ -283,16 +267,16 @@
 				<hr class="decoration-line">
 				<div class="row justify-content-between">
 					<div class="col-4 col-sm-8">
-						<img class="footer-pay" src="img/visa.svg" alt="logo: visa">
-						<img class="footer-pay" src="img/mastercard.svg" alt="logo: mastercard">
-						<img class="footer-pay" src="img/paypal.svg" alt="logo: paypal">
-						<img class="footer-pay" src="img/bitcoin.svg" alt="logo: bitcoin">
+						<img class="footer-pay" src="img/png/visa.png" alt="logo: visa">
+						<img class="footer-pay" src="img/png/mastercard.png" alt="logo: mastercard">
+						<img class="footer-pay" src="img/png/paypal.png" alt="logo: paypal">
+						<img class="footer-pay" src="img/png/bitcoin.png" alt="logo: bitcoin">
 					</div>
 					<div class="col-5 col-sm-3 d-flex align-items-center justify-content-end">
 						<div class="top-link-group">
 							<a class="top-link" href="#"></a>
 							<span class="top-link-text">Top</span>
-							<img src="img/arrow-top.svg" alt="icon: top" class="arrow-top">
+							<img src="img/svg/arrow-top.svg" alt="icon: top" class="arrow-top">
 						</div>
 					</div>
 				</div>
