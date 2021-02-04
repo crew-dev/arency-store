@@ -1,5 +1,12 @@
 body {
+		color: #262d33;
+    font-family: Lato, sans-serif;
+    margin: 0;
+    font-size: 14px;
 		opacity: 1;
+}
+* {
+    box-sizing: border-box;
 }
 .navigation-item a,
 a {
@@ -49,16 +56,6 @@ footer.footer {
 .goods-card,
 .more {
     text-align: center;
-}
-body {
-    font-family: Lato, sans-serif;
-    margin: 0;
-    font-size: 14px;
-    color: #262d33;
-}
-* {
-    box-sizing: border-box;
-    transition: ease 0.3s;
 }
 .navigation {
     list-style: none;
